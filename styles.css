@@ -37,8 +37,8 @@ body.dark table{
 }
 .checkbox {
     opacity: 0;
-    position: fixed; /* Fixed position */
-    top: 20px; /* Adjust top position as needed */
+    position: fixed; 
+    top: 20px; 
     right: 20px;
 
   }
@@ -48,9 +48,9 @@ body.dark table{
     width: 50px;
     height: 26px;
     border-radius: 50px;
-    position: fixed; /* Fixed position */
-    top: 20px; /* Adjust top position as needed */
-    right: 20px; /* Adjust right position as needed */
+    position: fixed; 
+    top: 20px; 
+    right: 20px; 
     padding: 10px;
     cursor: pointer;
     display: flex;
