@@ -28,8 +28,7 @@ function toggleTableBackground() {
     const tables = document.getElementsByTagName("table");
 
     for (let table of tables) {
-        table.classList.toggle("light"); // Toggle "light" class based on checkbox state
-    }
+        table.classList.toggle("light");
 }
 
 
