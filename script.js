@@ -29,7 +29,6 @@ function toggleTableBackground() {
 
     for (let table of tables) {
         table.classList.toggle("light");
-}
-
+}}
 
 
