@@ -19,6 +19,8 @@ function calculate() {
         document.getElementById('display').value = 'Error';
     }
 }
+
+// Toggle dark mode and table background
 const checkbox = document.getElementById("checkbox");
 
 checkbox.addEventListener("change", () => {
@@ -31,6 +33,5 @@ function toggleTableBackground() {
 
     for (let table of tables) {
         table.classList.toggle("light");
-}}
-
-
+    }
+}
