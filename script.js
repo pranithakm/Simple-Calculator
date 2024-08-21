@@ -19,11 +19,13 @@ function calculate() {
         document.getElementById('display').value = 'Error';
     }
 }
-const checkbox = document.getElementById("checkbox")
+const checkbox = document.getElementById("checkbox");
+
 checkbox.addEventListener("change", () => {
   document.body.classList.toggle("dark");
   toggleTableBackground();
-})
+});
+
 function toggleTableBackground() {
     const tables = document.getElementsByTagName("table");
 
